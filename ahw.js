@@ -7,6 +7,9 @@
 // ==/UserScript==
 (function ahw() {
     'use strict';
-    window.onload = function () { alert('ok'); jQuery(".wrapper").css("min-width", "100%") };
+    function runMe() {
+        jQuery(".wrapper").css("min-width", "100%")
+    }
+    window.onload = function () { document.body.click(runMe) };
 }());
 
