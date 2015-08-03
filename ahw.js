@@ -1,8 +1,8 @@
 // ==UserScript==
 // @version     0.0.1
-// @name        Customizer
+// @name        Customizer autohotkey
+// @namespace https://raw.githubusercontent.com/hixr
 // @match       *://autohotkey.com/*
-// @run-at      document-start
 // @grant       none
 // @noframes
 // ==/UserScript==
