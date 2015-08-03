@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version     0.0.2
+// @version     0.0.3
 // @name        Customizer autohotkey
 // @match       *://autohotkey.com/*
 // @grant       none
