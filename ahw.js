@@ -1,7 +1,7 @@
 // ==UserScript==
 // @version     0.0.1
 // @name        Customizer
-// @match       *://ahkscript.org/*
+// @match       *://autohotkey.com/*
 // @run-at      document-start
 // @grant       none
 // @noframes
