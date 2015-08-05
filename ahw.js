@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version     0.0.6
+// @version     0.0.7
 // @name        Customizer autohotkey
 // @match       *://www.autohotkey.com/*
 // @grant       none
@@ -10,6 +10,8 @@
     function runMe() {
         jQuery(".wrapper").css("min-width", "100%");
     }
-    window.onload = function () { runMe(); };
+    window.onload = function () {
+        document.body.onclick = function () { runMe() };
+    };
 }());
 
